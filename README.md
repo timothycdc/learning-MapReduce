@@ -1,6 +1,6 @@
 # learning-MapReduce
 Going through the basic paradigms of MapReduce.
-For this example, we are creating a word count tally of a text file.
+This example is a word count tally of a text file.
 
 I've written a basic mapper and reducer in Python. 
 
