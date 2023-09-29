@@ -9,7 +9,7 @@ I've written a basic mapper and reducer in Python.
 - Reducer Function: Calculates word counts by summing mapper outputs.
 - Output: Writes word frequency results to a file and displays execution time.
 
-Also tried implementing a threading version of it. Alas, it slows down as the overhead of creating threads exceeds the time saved by parallel processing (which is honestly not much since it's just tallying words in $O(n)$ ).
+Also tried implementing a threading version of it. Alas, it slows down as the overhead of creating threads exceeds the time saved by parallel processing (which is honestly not much since it's just tallying words in O(n)).
 
 But it is there nonetheless to show the concept. Plus, Global Interpreter Lock (GIL) in Python prevents true parallelism espeically in CPU-bound tasks. Threading is more for an I/O bound thing.
 
